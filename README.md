@@ -1,6 +1,8 @@
 # Intersteller-Titanic-Analysis
 New Interstellar Titanic competition on Kaggle to predict whether the passenger will be transported in another dimension or not. 
 
+Data Source: https://www.kaggle.com/competitions/spaceship-titanic/data
+
 There were several steps followed before just using a Machine Learning algorithm to predict whether the passenger will be transported or not successfully. The following steps were taken in completion of the analysis:
 
 File1: Intersteller_Titanic_Kaggle.ipynb:
@@ -28,3 +30,4 @@ To improve this, I used different approaches in a separate file: Part2.ipynb:
 8. Using appropriate metric to compare the models. (Classification Report, Confusion Matrix).
 9. This time Random Forest performed better then Logistic Regression so used that trained model to predict the competition test dataset Transported values which resulted in a better score of 0.7877.
 10. On further improving the data pre-processing, Random Forest again did better which was used to predict the competition test dataset Transported values which resulted in the best score till now of 0.79003.
+
